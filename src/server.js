@@ -15,5 +15,5 @@ server.use(routes)
 
 
 server.listen(3000,()=>{
-    console.log("Servidor iniciado")
+    console.log("Servidor executando na porta 3000")
 })

@@ -6,7 +6,7 @@ const cors=require('cors')
 
 const server=express()
 
-mongoose.connect('YOUR MONGO DB CONNECTION',{useNewUrlParser:true})
+mongoose.connect('HTTPS://YOUR MONGO DB CONNECTION',{useNewUrlParser:true})
 
 server.use(cors());
 
